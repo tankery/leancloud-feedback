@@ -19,5 +19,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':leancloudCore')
+    compile 'com.android.support:support-v4:22.0.0'
+    compile files('libs/avoscloud-feedback-v3.1.5.jar')
 }
